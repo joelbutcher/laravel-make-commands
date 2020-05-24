@@ -10,12 +10,20 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "php": ">=7.0",
+        "illuminate/routing": "^5.5|^6|^7",
+        "illuminate/session": "^5.5|^6|^7",
+        "illuminate/support": "^5.5|^6|^7"
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "JoelButcher\\LaravelMakeCommands\\ServiceProvider"
             ]
         }
+    },
+    "require-dev": {
+        "laravel/framework": "^7.12"
     }
 }
