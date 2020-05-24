@@ -1,0 +1,21 @@
+{
+    "name": "joelbutcher/laravel-make-commands",
+    "description": "A simple package for extending functionality of the core make commands in Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joel Butcher",
+            "email": "joel@joelbutcher.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JoelButcher\\LaravelMakeCommands\\ServiceProvider"
+            ]
+        }
+    }
+}
