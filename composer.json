@@ -16,6 +16,11 @@
         "illuminate/session": "^5.5|^6|^7",
         "illuminate/support": "^5.5|^6|^7"
     },
+    "autoload": {
+        "psr-4": {
+            "JoelButcher\\LaravelMakeCommands\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
