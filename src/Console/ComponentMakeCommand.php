@@ -22,7 +22,6 @@ class ComponentMakeCommand extends BaseCommand
      */
     public function handle()
     {
-        dd('foo');
         $this->namespace = $this->ask('Where should the class be created?', 'App\View\Components');
         return parent::handle();
     }
