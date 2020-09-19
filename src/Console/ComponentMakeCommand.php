@@ -16,20 +16,22 @@ class ComponentMakeCommand extends BaseCommand
     /**
      * Execute the console command.
      *
-     * @return void
-     *
      * @throws \Illuminate\Contracts\Filesystem\FileNotFoundException
+     *
+     * @return void
      */
     public function handle()
     {
         $this->namespace = $this->ask('Where should the class be created?', 'App\View\Components');
+
         return parent::handle();
     }
 
     /**
      * Get the default namespace for the class.
      *
-     * @param  string  $rootNamespace
+     * @param string $rootNamespace
+     *
      * @return string
      */
     protected function getNamespace($rootNamespace)

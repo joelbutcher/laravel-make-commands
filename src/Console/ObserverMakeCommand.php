@@ -16,20 +16,22 @@ class ObserverMakeCommand extends BaseCommand
     /**
      * Execute the console command.
      *
-     * @return bool|null
-     *
      * @throws \Illuminate\Contracts\Filesystem\FileNotFoundException
+     *
+     * @return bool|null
      */
     public function handle()
     {
         $this->namespace = $this->ask('Where should the class be created?', 'App\Observers');
+
         return parent::handle();
     }
 
     /**
      * Get the default namespace for the class.
      *
-     * @param  string  $rootNamespace
+     * @param string $rootNamespace
+     *
      * @return string
      */
     protected function getNamespace($rootNamespace)

@@ -16,21 +16,21 @@ class MailMakeCommand extends BaseCommand
     /**
      * Execute the console command.
      *
-     * @return void
-     *
      * @throws \Illuminate\Contracts\Filesystem\FileNotFoundException
+     *
+     * @return void
      */
     public function handle()
     {
         $this->namespace = $this->ask('Where should the class be created?', 'App\Mail');
         parent::handle();
-        return;
     }
 
     /**
      * Get the default namespace for the class.
      *
-     * @param  string  $rootNamespace
+     * @param string $rootNamespace
+     *
      * @return string
      */
     protected function getNamespace($rootNamespace)
