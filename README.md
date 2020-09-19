@@ -1,5 +1,8 @@
-## Laravel Make Commands
-[![Packagist License](https://poser.pugx.org/barryvdh/laravel-debugbar/license.png)](http://choosealicense.com/licenses/mit/)
+# Laravel Make Commands
+<p align="center">
+<a href="https://packagist.org/packages/joelbutcher/laravel-make-commands"><img src="https://github.styleci.io/repos/266590363/shield" alt="Style CI"></a>
+<a href="https://packagist.org/packages/joelbutcher/laravel-make-commands"><img src="https://poser.pugx.org/barryvdh/laravel-debugbar/license.png" alt="License"</a>
+</p>
 
 This is a package that can be used to extend the functionality of Laravels `make` commands. It allows developers to define the destination of their new files.
 
